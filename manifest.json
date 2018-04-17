@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "I'm a Pro Googler!",
+  "description": "Easy Search operators.",
+  "version": "1.1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent" : true
+  },
+  "browser_action": {
+    "default_icon": "icon2/Google_20160406/LOGO/Logo_300px.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "history",
+    "<all_urls>"
+  ]
+}

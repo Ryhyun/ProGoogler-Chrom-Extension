@@ -1,0 +1,170 @@
+    .tabmenu {position:relative; 
+              width:400px;
+               height:200px;
+             font-family:dotum,"",verdana;
+             line-height:17px;
+             font-size:12px;
+             color:#555;}
+    .tabmenu img {border:none;  
+                  vertical-align:top; 
+                  float: left;
+                  position : relative;
+                  }
+
+    .tabmenu ul {margin:0px;
+                padding:0px;
+                list-style:none;
+                
+              }
+    .tabmenu ul li {float:left; 
+                  width: 100px;
+
+                }
+    .tabmenu .tabcontent {display:none;
+                         width:400px;
+                          height:200px;
+                         position:absolute;
+                           top:60px; 
+                         left:0px;
+                      
+                           }
+    .tabmenu table {
+                      margin-top:15px;
+    }
+    .tabmenu table td {
+                      width: 200px;
+                      height: 27px;
+                
+
+      }
+      #num {
+        width:70px;
+      }
+    #typedUrl_div  a {
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+        top:10%;
+        font-family:'Namum gothic';
+      }
+       #typedUrl_div  a:hover{
+        
+        color: white;
+        margin: 10px;
+      }
+  #typedUrl_div{
+     
+      height:367px;
+      width:400px;
+      border :1px solid white;
+      margin-top: 12px;
+
+      background: url("icon2/background.svg") center center no-repeat ;
+     
+      ;
+  }
+  
+    #typedUrl_div ul li{
+      width: 390px;
+      height: 30px;
+      margin: 0.5px;
+      background: #efefef;
+      font-size: 15px;
+      text-align: left;
+      padding-top: 14px;
+      padding-left: 10px;
+      
+    }
+      #typedUrl_div li:hover{
+          background: #d6d6d6;
+
+      }
+    #header {
+    margin-top:  -10px;
+    width: 400px;
+    height :40px;
+  } 
+
+#base{
+  width: 370px;
+  height: 30px;
+   border-radius: 0;  
+   font-size: 25px;
+}
+
+  body{
+    margin :0px;
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    
+    background: #ffffff;
+    width : 400px;
+    height:  480px;
+  }
+  #temp{
+
+
+    background-color:#ffffff;
+
+   border:none;
+    padding:6px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top:8px;
+  }
+
+
+#typedUrl_div button{
+    background: url(icon2/Google_20160406/History_delete_Button.svg) no-repeat;
+    border: none;
+    height: 22px;
+    width:22px;
+
+
+
+}
+#reset{
+  background: url(icon2/Google_20160406/HistoryClear_Button.svg) no-repeat;
+}
+#operators:after { clear: both;
+                   display: block; 
+                   visibility: hidden; height: 0; 
+                   content:"."; font-size: 0; } 
+ li button{
+     float:right;
+     margin-right: 15px;
+	 margin-bottom:7px;
+
+ }
+  #content{
+    border: 1px solid white;
+  }
+
+.styled-select {
+   padding-left: 10px;
+   height: 28px;
+   width: 110px;
+   float: right;
+  
+}
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 20px;
+    margin-top:4px;
+   width: 110px;
+}
+
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   margin-top : 6px;
+}
+.blue    { background-color: #7598f1; }
+.blue select    { color: #fff;
+ background-color: #7598f1;  }
+  
+
+
+
